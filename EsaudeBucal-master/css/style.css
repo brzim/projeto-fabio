@@ -80,17 +80,24 @@ body h3{
     padding: 8px 8px;
     font-family: initial;
     text-decoration: none;
-    transition: background .5s;
     text-align: center;
+    border-radius: 12px;
+}
+.btn-e:hover {
+	background:#116f47;
+	cursor: pointer;
+    transition: background .5s;
+    border-radius: 12px;
 }
 .nav {
+	margin-left: 20%;
     background: #179c63;
     height: 50px;
-    width: 100%;
+    width: 60%;
     position: fixed;
     z-index: 2;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 
 .nav ul {
